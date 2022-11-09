@@ -1,0 +1,111 @@
+@font-face {
+    font-family: font-1;
+    src: url(./fonts/OpenSans-Light.ttf);
+}
+*  {	
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    color: white;
+    font-family: font-1, serif;
+}
+nav {
+    background-color:rgb(247, 245, 245);
+    display: grid;
+    grid-template-columns: 85% 15%;
+}
+ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    margin-top: 10px;
+    padding-right: 40px;
+}
+li {
+    list-style: none;
+}
+a {
+    outline: none;
+    text-decoration: none;
+    color: rgb(6, 6, 6);
+  }
+nav h2 {
+    color:rgb(121, 212, 182);
+    font-size: 2rem;
+    padding: 10px 15px;
+}
+h1 {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 2.5rem;
+    width: 100%;
+}
+h3 {
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 20px 0;
+}
+.main-container {
+    height: 100vh;
+    background-image: url(./images/background.jpg);
+    background-size: cover;
+    padding: 0 10%;
+}
+.containers-box {
+    height: 400px;
+    display: grid;
+    grid-template-columns: 40% 20% 40%;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(247, 245, 245);
+    border-radius: 10px;
+    padding: 25px;
+}
+.cities {
+    margin-top: 35px;
+    margin-bottom: 45px;
+}
+.container2 {
+    background-color: rgb(247, 245, 245);
+    border-radius: 10px;
+}
+.container2 h4 {
+    color:rgb(10, 10, 10);
+    text-align: center;
+    margin-top: 30px;
+}
+.logo img {
+  height: 150px;
+  margin-top: 20px;;
+}
+.logo {
+    padding: 55px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+input, button {
+    font-size: 1rem;
+    width: 100%;
+    padding: 18px 0;
+    border: none;
+    border-radius: 10px;
+}
+input {
+    background-color: rgb(228, 227, 227);
+    color: black;
+    padding-left: 20px;
+}
+#departure {
+    border-bottom: 1px solid;
+}
+button {
+    background-color: rgb(121, 212, 182);
+    margin-top: 65px;
+}
